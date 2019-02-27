@@ -14,8 +14,8 @@ public class MemberDao {
     List<Member> members;
     public MemberDao(){
         members=new ArrayList<>();
-        members.add(new Member("Tom","333","shanghai"));
-        members.add(new Member("Jack","222","newyork"));
+        members.add(new Member("1","Tom","333","shanghai"));
+        members.add(new Member("2","Jack","222","newyork"));
     }
     public  Member getMemberByname(String name){
         Member retMem=null;
